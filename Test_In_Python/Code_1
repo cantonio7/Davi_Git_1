@@ -1,8 +1,9 @@
-import pandas as pd
-group_1 = {'Name': ['Jane', 'Julia', 'Carl'. 'Kevin', 'Scott', 'Lina', 'Cindy', 'Ashley', 'Carol', 'Mark', 'Rachel', 'Billy', 'Karen'],
-'Age': [29, 31, 25, 31, 30, 26, 23, 29, 33, 19, 25, 28, 27],
-'Country' = ['USA', 'Australia', 'USA', 'Ireland', 'UK', 'Canada', 'New Zealand', 'USA', 'Canada', 'Australia', 'UK', 'USA', 'UK'],
-'Gender' = ['F', 'F', 'M', 'M', 'M', 'M', 'F', 'F', 'F', 'F', 'M', 'F', 'M', 'F'],
-'Scores' = [902, 608, 654, 708, 993, 658, 879, 579, 871, 657, 702, 998, 890]}
-df = pd.Dataframe(group_1)
-print('Done')
+print('Hi')
+c1 = 0
+while True:
+    print(c1)
+    c1 += 1
+    if c1 == 10: 
+        break
+
+print('True')
